@@ -8,11 +8,11 @@ Generated 10,000 patients with Synthea master branch with Git SHA `4fed9eaf` and
 
 ### Test System
 
-MacBook Pro \(Retina, 15-inch, Mid 2015\) 2,5 GHz Intel Core i7, 16 GB RAM. Blaze version 0.6-alpha48.
+MacBook Pro \(Retina, 15-inch, Mid 2015\) 2,5 GHz Intel Core i7, 16 GB RAM. Dromon version 0.6-alpha48.
 
 ### Upload Method
 
-Command line tool `blazectl` on a  with concurrency of 8.
+Command line tool `dromonctl` on a  with concurrency of 8.
 
 ```text
 Uploads       [total, concurrency]     11647, 8

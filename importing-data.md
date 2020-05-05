@@ -1,11 +1,11 @@
 # Importing Data
 
-In order to use Blaze for queries, you have to import your data. Although you can use the full functionality of the [FHIR RESTful API](https://www.hl7.org/fhir/http.html) available under `http://localhost:8080/fhir` to create resources, the easiest way is to download [blazectl](https://github.com/samply/blazectl/releases/tag/v0.2.0) to upload [bundles](https://www.hl7.org/fhir/bundle.html).
+In order to use Dromon for queries, you have to import your data. Although you can use the full functionality of the [FHIR RESTful API](https://www.hl7.org/fhir/http.html) available under `http://localhost:8080/fhir` to create resources, the easiest way is to download [dromonctl](https://github.com/samply/dromonctl/releases/tag/v0.2.0) to upload [bundles](https://www.hl7.org/fhir/bundle.html).
 
-First you should test connectivity by counting already available resources in Blaze which should be zero:
+First you should test connectivity by counting already available resources in Dromon which should be zero:
 
 ```text
-blazectl --server http://localhost:8080/fhir count-resources
+dromonctl --server http://localhost:8080/fhir count-resources
 ```
 
 which should return:
@@ -34,7 +34,7 @@ That will generate two files under `fhir-test-data`:
 After you have the test data, you can upload it with:
 
 ```text
-blazectl --server http://localhost:8080/fhir upload fhir-test-data
+dromonctl --server http://localhost:8080/fhir upload fhir-test-data
 ```
 
 which will output:
@@ -54,7 +54,7 @@ Status Codes     [code:count]             200:2
 counting the FHIR resources again:
 
 ```text
-blazectl --server http://localhost:8080/fhir count-resources
+dromonctl --server http://localhost:8080/fhir count-resources
 ```
 
 should return:

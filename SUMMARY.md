@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Blaze Documentation](README.md)
+* [Dromon Documentation](README.md)
 * [Deployment](deployment/README.md)
   * [Quick Start](deployment/quick-start.md)
   * [Docker Deployment](deployment/docker-deployment.md)
